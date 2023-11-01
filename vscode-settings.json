@@ -22,5 +22,5 @@
     "scminput": false
   },
   "editor.inlineSuggest.suppressSuggestions": true,
-  "window.zoomLevel": 1
+  "workbench.startupEditor": "none"
 }
