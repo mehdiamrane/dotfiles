@@ -3,9 +3,6 @@
 # Specify directory where to install Homebrew apps
 cask_args appdir: "/Applications"
 
-# Homebrew settings
-brew analytics off
-
 # Taps
 tap "homebrew/aliases"
 tap "homebrew/autoupdate"
@@ -31,7 +28,6 @@ brew "yarn"
 brew "wget"
 brew "nano"
 brew "thefuck"
-brew "code-cli"
 
 # Web browsers
 cask "arc"
@@ -40,7 +36,7 @@ cask "firefox"
 
 # Communication apps
 cask "slack"
-cask "zoom"
+# cask "zoom"
 cask "whatsapp"
 cask "discord"
 cask "pop"
