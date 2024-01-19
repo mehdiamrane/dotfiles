@@ -1,6 +1,7 @@
 [user]
 	# Name used in commit messages.
 	name = Mehdi Amrane
+	email = mehdi@amrane.fr
 	# Email used in commit messages.
 	# email = example@example.com
 [github]
