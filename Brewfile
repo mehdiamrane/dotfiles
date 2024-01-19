@@ -81,6 +81,7 @@ cask "imageoptim"
 # Other apps
 cask "adobe-creative-cloud"
 cask "vlc"
+cask "iina"
 cask "macs-fan-control"
 cask "microsoft-excel"
 cask "microsoft-powerpoint"
