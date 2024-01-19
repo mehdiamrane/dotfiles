@@ -7,11 +7,11 @@ cask_args appdir: "/Applications"
 tap "homebrew/aliases"
 tap "homebrew/autoupdate"
 tap "homebrew/bundle"
-tap "homebrew/cask"
+# tap "homebrew/cask" #  No longer needed
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/command-not-found"
-tap "homebrew/core"
+# tap "homebrew/core" # No longer needed
 tap "homebrew/services"
 tap "buo/cask-upgrade"
 
@@ -40,7 +40,6 @@ cask "slack"
 cask "whatsapp"
 cask "discord"
 cask "pop"
-cask "krisp"
 cask "anydesk"
 cask "teamviewer"
 
@@ -51,6 +50,7 @@ cask "1password"
 cask "tunnelbear"
 cask "windscribe"
 cask "openvpn-connect"
+cask "tailscale"
 
 # Development apps
 cask "visual-studio-code"
@@ -64,6 +64,7 @@ cask "cyberduck"
 
 # Drive apps
 cask "google-drive"
+cask "synology-drive"
 
 # Productivity apps
 cask "raycast"
@@ -87,9 +88,13 @@ cask "microsoft-word"
 cask "calibre"
 cask "spotify"
 cask "logi-options-plus"
+cask "monitorcontrol"
 mas "Spark", id: 1176895641
 mas "Amphetamine", id: 937984704
 
 # Fonts
 cask "font-inter"
 cask "font-jetbrains-mono"
+
+# Apps requiring password
+cask "krisp"
