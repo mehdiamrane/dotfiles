@@ -20,8 +20,10 @@ setopt share_history
 setopt no_hup
 
 # autocorrect command and parameter spelling
-setopt correct
-setopt correctall
+# setopt correct
+# setopt correctall
+setopt nocorrect 
+setopt nocorrectall # don't autocorrect all commands
 
 # fix backspace on Debian
 [ -n "$LINUX" ] && bindkey "^?" backward-delete-char
