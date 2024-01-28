@@ -90,6 +90,7 @@ cask "calibre"
 cask "spotify"
 cask "logi-options-plus"
 cask "monitorcontrol"
+cask "the-unarchiver"
 mas "Spark", id: 1176895641
 mas "Amphetamine", id: 937984704
 
