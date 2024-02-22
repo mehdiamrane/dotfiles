@@ -62,7 +62,6 @@ cask "ngrok"
 cask "cyberduck"
 
 # Drive apps
-cask "google-drive"
 cask "synology-drive"
 
 # Productivity apps
@@ -98,5 +97,6 @@ cask "font-inter"
 cask "font-jetbrains-mono"
 
 # Apps requiring password
+cask "google-drive"
 cask "teamviewer"
 cask "krisp"
