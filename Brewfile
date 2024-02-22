@@ -41,7 +41,6 @@ cask "whatsapp"
 cask "discord"
 cask "pop"
 cask "anydesk"
-cask "teamviewer"
 
 # Security and Password apps
 cask "1password"
@@ -99,4 +98,5 @@ cask "font-inter"
 cask "font-jetbrains-mono"
 
 # Apps requiring password
+cask "teamviewer"
 cask "krisp"
