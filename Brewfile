@@ -4,15 +4,15 @@
 cask_args appdir: "/Applications"
 
 # Taps
-tap "homebrew/aliases"
+# tap "homebrew/aliases" # deprecated
 tap "homebrew/autoupdate"
-tap "homebrew/bundle"
+# tap "homebrew/bundle" # deprecated
 # tap "homebrew/cask" #  No longer needed
-tap "homebrew/cask-fonts"
-tap "homebrew/cask-versions"
+# tap "homebrew/cask-fonts" # deprecated
+# tap "homebrew/cask-versions" # deprecated
 tap "homebrew/command-not-found"
 # tap "homebrew/core" # No longer needed
-tap "homebrew/services"
+# tap "homebrew/services" # deprecated
 tap "buo/cask-upgrade"
 
 # Configuration & Brew related
@@ -29,67 +29,73 @@ brew "wget"
 brew "nano"
 brew "thefuck"
 
+# brew "localtunnel"
+
 # Web browsers
 cask "arc"
-cask "google-chrome"
-cask "firefox"
+cask "google-chrome@dev"
+# cask "google-chrome"
+# cask "firefox"
 
 # Communication apps
-cask "slack"
+# cask "slack"
 # cask "zoom"
-cask "whatsapp"
-cask "discord"
-cask "pop"
-cask "anydesk"
+# cask "whatsapp"
+# cask "discord"
+# cask "pop"
+# cask "anydesk"
 
 # Security and Password apps
 cask "1password"
 
 # VPN
-cask "tunnelbear"
-cask "windscribe"
-cask "openvpn-connect"
-cask "tailscale"
+# cask "tunnelbear"
+# cask "windscribe"
+# cask "openvpn-connect"
+# cask "tailscale"
 
 # Development apps
 cask "visual-studio-code"
-cask "warp"
-cask "sourcetree"
-cask "insomnia"
+cask "cursor"
+# cask "warp"
+# cask "sourcetree"
+# cask "insomnia"
 cask "httpie"
-cask "mockoon"
-cask "ngrok"
-cask "cyberduck"
+# cask "mockoon"
+# cask "ngrok"
+# cask "cyberduck"
 
 # Drive apps
-cask "synology-drive"
+# cask "synology-drive"
 
 # Productivity apps
 cask "raycast"
 cask "rectangle"
 cask "shottr"
-cask "deepl"
-cask "raindropio"
-cask "notion"
+cask "voiceink"
+# cask "deepl"
+# cask "raindropio"
+# cask "notion"
 
 # Media apps
-cask "handbrake"
-cask "imageoptim"
+# cask "handbrake"
+# cask "imageoptim"
 
 # Other apps
-cask "adobe-creative-cloud"
+# cask "adobe-creative-cloud"
 cask "vlc"
-cask "iina"
-cask "macs-fan-control"
-cask "microsoft-excel"
-cask "microsoft-powerpoint"
-cask "microsoft-word"
-cask "calibre"
+cask "mediamate"
+# cask "iina"
+# cask "macs-fan-control"
+# cask "microsoft-excel"
+# cask "microsoft-powerpoint"
+# cask "microsoft-word"
+# cask "calibre"
 cask "spotify"
-cask "logi-options-plus"
 cask "monitorcontrol"
 cask "the-unarchiver"
-mas "Spark", id: 1176895641
+# mas "Spark", id: 1176895641
+cask "readdle-spark"
 mas "Amphetamine", id: 937984704
 
 # Fonts
@@ -97,6 +103,7 @@ cask "font-inter"
 cask "font-jetbrains-mono"
 
 # Apps requiring password
-cask "google-drive"
-cask "teamviewer"
-cask "krisp"
+cask "logi-options-plus"
+# cask "google-drive"
+# cask "teamviewer"
+# cask "krisp"

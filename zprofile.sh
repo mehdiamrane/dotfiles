@@ -43,3 +43,5 @@ export RPROMPT='%{$fg_bold[red]%}$(git_branch)%b[%{$fg_bold[blue]%}%~%b%f]'
 
 # more macOS/Bash-like word jumps
 export WORDCHARS=""
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
